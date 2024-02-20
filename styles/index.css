@@ -33,9 +33,6 @@
   .main-info {
     max-width: 960px;
     width: 100%;
-    margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 57px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-size: 20px;
@@ -45,13 +42,14 @@
     color: #040000; 
     text-align: center;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   
   .main-btn {
    
     width: 152px;
     height: 64px;
-    margin-top: 50px;
     margin-left: 200px;
     background-color: #A3DC00;
     border-radius: 6px;
@@ -64,8 +62,9 @@
     letter-spacing: 0.02em;
     color: #ffffff;
     border: none;
-   justify-content: center;
-   flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
        
   }
   
@@ -73,8 +72,8 @@
   .main-img {
     max-width: 282px;
     width: 100%;
-    margin-top: 89px;
-    margin-bottom: 121px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-right: 48px;
     margin-left: 19px; 
     flex-direction: row;
