@@ -8,6 +8,7 @@
   .contaniner {
     margin: 0 auto;
     text-align: center;
+    flex-direction: row;
   }
   
   
@@ -27,6 +28,7 @@
     color: #1B0A42;
     align-items: center;
     text-align: center;
+    margin: auto;
   }
   
   .main-info {
@@ -43,6 +45,7 @@
     letter-spacing: 0.04em;
     color: #040000; 
     text-align: center;
+    margin: auto;
   }
   
   .main-btn {
@@ -63,13 +66,11 @@
     color: #ffffff;
     border: none;
    justify-content: center;
-    
-    
-    
+   flex-direction: row;
+       
   }
   
-  
-  
+
   .main-img {
     max-width: 282px;
     width: 100%;
@@ -79,9 +80,10 @@
     margin-left: 19px; 
     flex-direction: row;
     text-align: center;
-    background-color: black;
-    border: #020005;
     margin: 0 auto;
+    display: inline;
+    border: 2px solid #333333;
+    margin: auto;
     
   }
     
